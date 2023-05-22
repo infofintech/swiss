@@ -13,16 +13,16 @@ p, a, b, i {
     color: #FFFFFF;
 }
 </style>
-<script src="jquery.js?rev=<?=time();?>"></script>
-<script src="backend.js?rev=<?=time();?>"></script>
+<script src="minijquery.js?rev=<?=time();?>"></script>
+<script src="miniback.js?rev=<?=time();?>"></script>
 </head>
 <body>
 <p align='center'>
 <img src="swiss.icon.png?rev=<?=time();?>" style="width:12%;">
 </p>
 <p align='center'>
-<input type="button" value="Get Package" onclick="get(action.options[action.selectedIndex].id, host.value, pkg.value, repo.value, branch.value, user.value, false);"><br>
-<input type="button" value="Get Repository" onclick="getdir(action.options[action.selectedIndex].id, host.value, pkg.value, repo.value, branch.value, user.value, false);">
+<input type="button" value="Get Package" onclick="minipkg(action.options[action.selectedIndex].id, host.value, pkg.value, repo.value, branch.value, user.value, false);"><br>
+<input type="button" value="Get Repository" onclick="minirepo(action.options[action.selectedIndex].id, host.value, pkg.value, repo.value, branch.value, user.value, false);">
 </p>
 <p align='center'>
 <label>Action: </label><br>
