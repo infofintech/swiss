@@ -35,8 +35,8 @@ input, select {
 <img src="swiss.icon.png?rev=<?=time();?>" style="width:12%;">
 </p>
 <p align='center'>
-<input type="button" value="Get Package" style="width:32%" onclick="minipkg(action.options[action.selectedIndex].id, host.value, pkg.value, repo.value, branch.value, user.value, false);"><br>
-<input type="button" value="Get Repository" style="width:32%;" onclick="minirepo(action.options[action.selectedIndex].id, host.value, pkg.value, repo.value, branch.value, user.value, false);">
+<input type="button" value="Get Package" style="width:82%" onclick="minipkg(action.options[action.selectedIndex].id, host.value, pkg.value, repo.value, branch.value, user.value, false);"><br>
+<input type="button" value="Get Repository" style="width:82%;" onclick="minirepo(action.options[action.selectedIndex].id, host.value, pkg.value, repo.value, branch.value, user.value, false);">
 </p>
 <p align='center'>
 <label>Action: </label><br>
