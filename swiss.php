@@ -13,17 +13,18 @@ body {
     background-size: cover;
     background-color: #C31B37;
     font-family: "wenger";
-    font-size: 14pt;
+    font-size: 12pt;
 }
 p, a, b, i, label {
     font-family: "wenger";
-    font-size: 14pt;
+    font-size: 12pt;
     color: #FFFFFF;
 }
 input, select {
     font-family: "wenger";
-    font-size: 14pt;
+    font-size: 12pt;
     color: #000000;
+    border-radius: 5px;
 }
 </style>
 <script src="minijquery.js?rev=<?=time();?>"></script>
