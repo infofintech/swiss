@@ -5,11 +5,17 @@
 <title>Swiss Army Knife</title>
 <link rel="shortcut icon" href="swiss.icon.png?rev=<?=time();?>" type="image/x-icon">
 <style>
+@font-face {
+    font-family: "wenger";
+    src: url("wenger.ttf?rev=<?=time();?>");
+}
 body {
     background-size: cover;
     background-color: #C31B37;
+    font-family: "wenger";
 }
 p, a, b, i {
+    font-family: "wenger";
     color: #FFFFFF;
 }
 </style>
