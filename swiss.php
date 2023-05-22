@@ -13,16 +13,16 @@ body {
     background-size: cover;
     background-color: #C31B37;
     font-family: "wenger";
-    font-size: 12pt;
+    font-size: 14pt;
 }
 p, a, b, i, label {
     font-family: "wenger";
-    font-size: 12pt;
+    font-size: 14pt;
     color: #FFFFFF;
 }
 input, select {
     font-family: "wenger";
-    font-size: 12pt;
+    font-size: 14pt;
     color: #000000;
     border-radius: 5px;
 }
