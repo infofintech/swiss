@@ -32,7 +32,7 @@ input, select {
 </head>
 <body>
 <p align='center'>
-<img src="swiss.icon.png?rev=<?=time();?>" style="width:12%;">
+<img src="swiss.icon.png?rev=<?=time();?>" style="width:24%;">
 </p>
 <p align='center'>
 <input type="button" value="Get Package" style="width:82%" onclick="minipkg(action.options[action.selectedIndex].id, host.value, pkg.value, repo.value, branch.value, user.value, false);"><br>
