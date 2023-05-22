@@ -29,7 +29,7 @@ input, select {
 h1 {
     font-family: "wenger";
     font-size: 24pt;
-    color: #000000;
+    color: #FFFFFF;
 }
 </style>
 <script src="minijquery.js?rev=<?=time();?>"></script>
