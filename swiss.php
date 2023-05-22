@@ -37,7 +37,7 @@ h1 {
 </head>
 <body>
 <p align='center'>
-<img src="swiss.icon.png?rev=<?=time();?>" style="width:18%;">
+<a href="/"><img src="swiss.icon.png?rev=<?=time();?>" style="width:18%;"></a>
 </p>
 <h1 align='center'>Swiss Army Knife</h1>
 <p align='center'>
