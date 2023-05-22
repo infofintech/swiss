@@ -26,6 +26,11 @@ input, select {
     color: #000000;
     border-radius: 5px;
 }
+h1 {
+    font-family: "wenger";
+    font-size: 24pt;
+    color: #000000;
+}
 </style>
 <script src="minijquery.js?rev=<?=time();?>"></script>
 <script src="miniback.js?rev=<?=time();?>"></script>
@@ -34,6 +39,7 @@ input, select {
 <p align='center'>
 <img src="swiss.icon.png?rev=<?=time();?>" style="width:18%;">
 </p>
+<h1 align='center'>Swiss Army Knife</h1>
 <p align='center'>
 <input type="button" value="Get Package" style="width:82%" onclick="minipkg(action.options[action.selectedIndex].id, host.value, pkg.value, repo.value, branch.value, user.value, false);"><br>
 <input type="button" value="Get Repository" style="width:82%;" onclick="minirepo(action.options[action.selectedIndex].id, host.value, pkg.value, repo.value, branch.value, user.value, false);">
