@@ -10,7 +10,7 @@
 </head>
 <body>
 <p align='center'>
-<a href="/"><img src="swissknife.icon.png?rev=<?=time();?>" style="width:18%;"></a>
+<a href="/"><img src="favicon.png?rev=<?=time();?>" style="width:18%;"></a>
 </p>
 <h1 align='center'>Swiss Army Knife</h1>
 <p align='center'>
