@@ -3,46 +3,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta charset="UTF-8">
 <title>Swiss Army Knife</title>
-<link rel="shortcut icon" href="swiss.icon.png?rev=<?=time();?>" type="image/x-icon">
-<style>
-@font-face {
-    font-family: "wenger";
-    src: url("wenger.ttf?rev=<?=time();?>");
-}
-body {
-    background-size: cover;
-    background-color: #C31B37;
-    font-family: "wenger";
-    font-size: 14pt;
-}
-p, a, b, i, label {
-    font-family: "wenger";
-    font-size: 14pt;
-    color: #FFFFFF;
-}
-input, select {
-    font-family: "wenger";
-    font-size: 14pt;
-    color: #000000;
-    border-radius: 5px;
-}
-h1 {
-    font-family: "wenger";
-    font-size: 24pt;
-    color: #FFFFFF;
-}
-</style>
-<script src="minijquery.js?rev=<?=time();?>"></script>
-<script src="miniback.js?rev=<?=time();?>"></script>
+<link rel="shortcut icon" href="favicon.png?rev=<?=time();?>" type="image/x-icon">
+<link href="swissknife.css?rev=<?=time();?>" rel="stylesheet">
+<script src="jquery.js?rev=<?=time();?>"></script>
+<script src="backend.js?rev=<?=time();?>"></script>
 </head>
 <body>
 <p align='center'>
-<a href="/"><img src="swiss.icon.png?rev=<?=time();?>" style="width:18%;"></a>
+<a href="/"><img src="swissknife.icon.png?rev=<?=time();?>" style="width:18%;"></a>
 </p>
 <h1 align='center'>Swiss Army Knife</h1>
 <p align='center'>
-<input type="button" value="Get Package" style="width:82%" onclick="minipkg(action.options[action.selectedIndex].id, host.value, pkg.value, repo.value, branch.value, user.value, false);"><br>
-<input type="button" value="Get Repository" style="width:82%;" onclick="minirepo(action.options[action.selectedIndex].id, host.value, pkg.value, repo.value, branch.value, user.value, false);">
+<input type="button" value="Get Package" style="width:82%" onclick="get(action.options[action.selectedIndex].id, host.value, pkg.value, repo.value, branch.value, user.value, false);"><br>
+<input type="button" value="Get Repository" style="width:82%;" onclick="getdir(action.options[action.selectedIndex].id, host.value, pkg.value, repo.value, branch.value, user.value, false);">
 </p>
 <p align='center'>
 <label>Action: </label><br>

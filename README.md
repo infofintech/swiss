@@ -1,4 +1,4 @@
 # Swiss Army Knife
 Swiss Army Knife mini web app.
 
-<img style="width:100%" src="swiss.screenshot.png">
+![Collage](https://github.com/infofintech/swiss/blob/main/swissknife.desktop.png?raw=true)
